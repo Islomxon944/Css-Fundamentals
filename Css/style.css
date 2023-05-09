@@ -45,3 +45,23 @@ img{
 .main-content{
     flex-grow: 1;
 }
+
+.box{
+    height: 757px;
+    background-color: lightcyan;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 120px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    background-image: linear-gradient(
+        to right bottom,
+        yellow,
+        black
+    );
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
